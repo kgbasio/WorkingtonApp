@@ -86,7 +86,18 @@
 		<h1>Pre-travel <br> Checklist</h1>
 		<a href="#Main">Home</a>
 	</header>
-
+	
+	<button name="ResetList" data-role="button">Reset List</button>
+	
+	<script>
+		
+		$(document).ready(function(){
+			$('#ResetList').click(function(){
+				$("INPUT[type='checkbox']").attr("checked",false).checkboxradio("refresh");
+			});
+		});
+		
+	</script>
 
 	<div><form><fieldset data-role="controlgroup">
         <input type="checkbox" name="TravelCheck_1" id="TravelCheck_1"><label style="font-size: small;"  for="TravelCheck_1">Check that corner stands are up and locked</label><input type="checkbox" name="TraveCheck_2" id="TravelCheck_2"><label style="font-size: small;"  for="TravelCheck_2">Check that roll up awning is in the travel position and locked</label><input type="checkbox" name="TraveCheck_3" id="TravelCheck_3"><label style="font-size: small;"  for="TravelCheck_3">Pop tops – check that roof latches are done up</label><input type="checkbox" name="TraveCheck_4" id="TravelCheck_4"><label style="font-size: small;"  for="TravelCheck_4">Make sure all cupboard doors & drawers are closed / locked for travel</label><input type="checkbox" name="TraveCheck_5" id="TravelCheck_5"><label style="font-size: small;"  for="TravelCheck_5">Make sure that the water pump is switched off</label><input type="checkbox" name="TraveCheck_6" id="TravelCheck_6"><label style="font-size: small;"  for="TravelCheck_6">Make sure gas is turned off at the bottles</label><input type="checkbox" name="TraveCheck_7" id="TravelCheck_7"><label style="font-size: small;"  for="TravelCheck_7">Check that van coupling is in the locked position</label><input type="checkbox" name="TraveCheck_8" id="TravelCheck_8"><label style="font-size: small;"  for="TravelCheck_8">Make sure the handbrake is off</label><input type="checkbox" name="TraveCheck_9" id="TravelCheck_9"><label style="font-size: small;"  for="TravelCheck_9">Make sure dee shackles & chains are secure</label><input type="checkbox" name="TraveCheck_10" id="TravelCheck_10"><label style="font-size: small;"  for="TravelCheck_10">Connect the brake safe cable if fitted</label><input type="checkbox" name="TraveCheck_11" id="TravelCheck_11"><label style="font-size: small;"  for="TravelCheck_11">Lock your door for travel</label><input type="checkbox" name="TraveCheck_12" id="TravelCheck_12"><label style="font-size: small;"  for="TravelCheck_12">Double check that your window covers and windows are in closed / locked position</label><input type="checkbox" name="TraveCheck_13" id="TravelCheck_13"><label style="font-size: small;"  for="TravelCheck_13">Caravans fitted with Dometic double glazed windows must travel with the internal blinds in the open position</label><input type="checkbox" name="TraveCheck_14" id="TravelCheck_14"><label style="font-size: small;"  for="TravelCheck_14">Check that roof hatches are fully closed</label><input type="checkbox" name="TraveCheck_15" id="TravelCheck_15"><label style="font-size: small;"  for="TravelCheck_15">For Dometic clear hatches open the fly screen and sun blind for travel</label><input type="checkbox" name="TraveCheck_16" id="TravelCheck_16"><label style="font-size: small;"  for="TravelCheck_16">Make sure the 12 pin plug is connected to car</label><input type="checkbox" name="TraveCheck_17" id="TravelCheck_17"><label style="font-size: small;"  for="TravelCheck_17">If you have an Anderson plug make sure it is connected</label><input type="checkbox" name="TraveCheck_18" id="TravelCheck_18"><label style="font-size: small;"  for="TravelCheck_18">Check wheel nuts often</label><input type="checkbox" name="TraveCheck_19" id="TravelCheck_19"><label style="font-size: small;"  for="TravelCheck_19">Make sure the fridge door is locked for travel</label>
