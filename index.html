@@ -1,0 +1,771 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="./Code/CSS/reset.css" rel="stylesheet" type="text/css">
+<title>Trounce Caravans</title>
+<link rel="stylesheet" href="./Code/jQuery_mobile/jquery.mobile-1.4.5.min.css" />
+<script src="./Code/jquery-1.11.1.min.js"></script>
+<script src="./Code/jQuery_mobile/jquery.mobile-1.4.5.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+	<link href="./Code/CSS/stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+<!-----------------------------------------------------------------
+						START OF Welcome PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="Welcome">
+	
+	<img src="./Logos/TrounceCaravans.png" class="welcome_logo">
+	<div id="start_app_container">
+		<a href="#Main" data-role="button" data-transition="flow" data-icon="forward" data-iconpos="top" data-theme="b" id="start_app">Start</a>
+	</div>
+</div>
+
+
+<!-----------------------------------------------------------------
+						END OF Welcome PAGE
+------------------------------------------------------------------->
+
+
+
+<!-----------------------------------------------------------------
+						START OF MAIN PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="Main">
+<header data-role="header">
+<img src="./Logos/TrounceCaravans.png" class="header">
+
+</header>
+
+<div id="mainPage_selections">
+	<ul data-role="listview">
+		<li>
+			<a href="#instructions" data-transition="slide"><h1>View The Instruction Manual</h1></a>
+		</li>
+		<li>
+			<a href="#TravelList" data-transition="slide"><h1>View Our Handy Pre-travel Checklist</h1></a>
+		</li>
+	</ul>
+	
+</div>
+
+
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+
+
+
+
+<!-----------------------------------------------------------------
+						START OF TRAVEL LIST PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="TravelList">
+	<header data-role="header">
+		<h1>Pre-travel <br> Checklist</h1>
+		<a href="#Main">Home</a>
+	</header>
+
+
+	<div><form><fieldset data-role="controlgroup">
+        <input type="checkbox" name="TravelCheck_1" id="TravelCheck_1"><label style="font-size: small;"  for="TravelCheck_1">Check that corner stands are up and locked</label><input type="checkbox" name="TraveCheck_2" id="TravelCheck_2"><label style="font-size: small;"  for="TravelCheck_2">Check that roll up awning is in the travel position and locked</label><input type="checkbox" name="TraveCheck_3" id="TravelCheck_3"><label style="font-size: small;"  for="TravelCheck_3">Pop tops – check that roof latches are done up</label><input type="checkbox" name="TraveCheck_4" id="TravelCheck_4"><label style="font-size: small;"  for="TravelCheck_4">Make sure all cupboard doors & drawers are closed / locked for travel</label><input type="checkbox" name="TraveCheck_5" id="TravelCheck_5"><label style="font-size: small;"  for="TravelCheck_5">Make sure that the water pump is switched off</label><input type="checkbox" name="TraveCheck_6" id="TravelCheck_6"><label style="font-size: small;"  for="TravelCheck_6">Make sure gas is turned off at the bottles</label><input type="checkbox" name="TraveCheck_7" id="TravelCheck_7"><label style="font-size: small;"  for="TravelCheck_7">Check that van coupling is in the locked position</label><input type="checkbox" name="TraveCheck_8" id="TravelCheck_8"><label style="font-size: small;"  for="TravelCheck_8">Make sure the handbrake is off</label><input type="checkbox" name="TraveCheck_9" id="TravelCheck_9"><label style="font-size: small;"  for="TravelCheck_9">Make sure dee shackles & chains are secure</label><input type="checkbox" name="TraveCheck_10" id="TravelCheck_10"><label style="font-size: small;"  for="TravelCheck_10">Connect the brake safe cable if fitted</label><input type="checkbox" name="TraveCheck_11" id="TravelCheck_11"><label style="font-size: small;"  for="TravelCheck_11">Lock your door for travel</label><input type="checkbox" name="TraveCheck_12" id="TravelCheck_12"><label style="font-size: small;"  for="TravelCheck_12">Double check that your window covers and windows are in closed / locked position</label><input type="checkbox" name="TraveCheck_13" id="TravelCheck_13"><label style="font-size: small;"  for="TravelCheck_13">Caravans fitted with Dometic double glazed windows must travel with the internal blinds in the open position</label><input type="checkbox" name="TraveCheck_14" id="TravelCheck_14"><label style="font-size: small;"  for="TravelCheck_14">Check that roof hatches are fully closed</label><input type="checkbox" name="TraveCheck_15" id="TravelCheck_15"><label style="font-size: small;"  for="TravelCheck_15">For Dometic clear hatches open the fly screen and sun blind for travel</label><input type="checkbox" name="TraveCheck_16" id="TravelCheck_16"><label style="font-size: small;"  for="TravelCheck_16">Make sure the 12 pin plug is connected to car</label><input type="checkbox" name="TraveCheck_17" id="TravelCheck_17"><label style="font-size: small;"  for="TravelCheck_17">If you have an Anderson plug make sure it is connected</label><input type="checkbox" name="TraveCheck_18" id="TravelCheck_18"><label style="font-size: small;"  for="TravelCheck_18">Check wheel nuts often</label><input type="checkbox" name="TraveCheck_19" id="TravelCheck_19"><label style="font-size: small;"  for="TravelCheck_19">Make sure the fridge door is locked for travel</label>
+
+
+    </fieldset>
+</form>
+		
+		</div>
+
+	
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+
+
+</div>
+<!-----------------------------------------------------------------
+						END OF TRAVEL LIST PAGE
+------------------------------------------------------------------->
+
+
+
+
+
+
+<!-----------------------------------------------------------------
+						START OF Instructions PAGE
+------------------------------------------------------------------->
+
+
+<div data-role="page" id="instructions">
+<header data-role="header">
+<img src="./Logos/TrounceCaravans.png" class="header">
+<a href="#Main">Home</a>
+</header>
+
+<article data-role="content">
+	<ul data-role="listview" data-filter="true">
+		
+		<li>
+			<a href="#Windows">
+				<h1>Window Instructions</h1>
+				<p>Learn how to opperate your windows</p>
+			</a>
+		</li>
+		
+		<li>
+			<a href="#12v_system">
+				<h1>12 Volt Power System</h1>
+				<p>Learn how to opperate your caravan's power system</p>
+			</a>
+		</li>
+
+		<li>
+			<a href="#TVinstructions">
+				<h1>TV Opperation</h1>
+				<p>Everything you need to know about using your TV</p>
+			</a>
+		</li>
+		
+		<li>
+			<a href="#EntryDoor">
+				<h1>Enterance Door</h1>
+				<p>Instructions for your camec tripple lock door</p>
+			</a>
+		</li>
+
+		<li>
+			<a href="#StoveTop">
+				<h1>Swift Cooktop, Grill and Oven</h1>
+				<p>How to opperate your Swift cooktop</p>
+			</a>
+		</li>
+
+		<li>
+			<a href="#DropStands">
+				<h1>Quick Drop Stands</h1>
+				<p>Info on the quick drop stands on your van</p>
+			</a>
+		</li>
+
+		<li>
+			<a href="#FrideManual">
+				<h1>Dometic Fridge</h1>
+				<p>Learn how to use your dometic fridge</p>
+			</a>
+		</li>
+
+		<li>
+			<a href="#WaterSystem">
+				<h1>Water System</h1>
+				<p>Learn about your van's tanks, pump and hot water</p>
+			</a>
+		</li>
+
+		<li>
+			<a href="#AirCon">
+				<h1>Air Conditioning</h1>
+				<p>Learn about your van's air conditioner</p>
+			</a>
+		</li>
+
+		<li>
+			<a href="#RollOut">
+				<h1>Dometic Roll Out Awning</h1>
+				<p>Learn how to setup and packup your roll out awning</p>
+			</a>
+		</li>
+
+		<li>
+			<a href="#Annex">
+				<h1>Annex Setup</h1>
+				<p>Step by step guide on annex setup</p>
+			</a>
+		</li>
+
+		
+	</ul>
+	
+</article>
+<script>
+$(document).ready( function () {
+if ( !navigator.userAgent.match(/(iPhone|Android)/) ) {
+    $('a.phonelink').click(function(e){
+	alert ("This function only works on iPhones and Android phones");
+        e.preventDefault(); 
+    });
+}
+});
+</script>
+
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+<!-----------------------------------------------------------------
+						END OF INSTRUCTIONS PAGE
+------------------------------------------------------------------->
+
+
+<!-----------------------------------------------------------------
+						START OF WINDOWS PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="Windows">
+	<header data-role="header">
+		<h1>Window Instructions</h1>
+		<a href="#Main">Home</a>
+	</header>
+
+
+
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+<!-----------------------------------------------------------------
+						END OF WINDOWS PAGE
+------------------------------------------------------------------->
+
+
+<!-----------------------------------------------------------------
+						START OF 12V_SYSTEM PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="12v_system">
+	<header data-role="header">
+		<h1>Power System Instructions</h1>
+		<a href="#Main">Home</a>
+	</header>
+
+
+
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+<!-----------------------------------------------------------------
+						END OF 12V_SYSTEM PAGE
+------------------------------------------------------------------->
+
+
+
+
+<!-----------------------------------------------------------------
+						START OF TV Instructions PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="TVinstructions">
+	<header data-role="header">
+		<h1>TV Opperation</h1>
+		<a href="#Main">Home</a>
+	</header>
+
+
+
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+
+</div>
+<!-----------------------------------------------------------------
+						END OF TV Instructions PAGE
+------------------------------------------------------------------->
+
+
+
+
+<!-----------------------------------------------------------------
+						START OF EntryDoor PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="EntryDoor">
+	<header data-role="header">
+		<h1>Enterance Door</h1>
+		<a href="#Main">Home</a>
+	</header>
+
+
+
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+<!-----------------------------------------------------------------
+						END OF EntryDoor PAGE
+------------------------------------------------------------------->
+
+
+
+
+<!-----------------------------------------------------------------
+						START OF StoveTop PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="StoveTop">
+	<header data-role="header">
+		<h1>Swift Cooktop, Grill and Oven</h1>
+		<a href="#Main">Home</a>
+	</header>
+
+
+
+
+
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+<!-----------------------------------------------------------------
+						END OF StoveTop PAGE
+------------------------------------------------------------------->
+
+
+
+
+<!-----------------------------------------------------------------
+						START OF DropStands PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="DropStands">
+	<header data-role="header">
+		<h1>Quick Drop Stands</h1>
+		<a href="#Main">Home</a>
+	</header>
+
+
+
+
+
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+<!-----------------------------------------------------------------
+						END OF DropStands PAGE
+------------------------------------------------------------------->
+
+
+
+
+<!-----------------------------------------------------------------
+						START OF FrideManual PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="FrideManual">
+	<header data-role="header">
+		<h1>Dometic Fridge</h1>
+		<a href="#Main">Home</a>
+	</header>
+
+
+
+
+
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+<!-----------------------------------------------------------------
+						END OF FrideManual PAGE
+------------------------------------------------------------------->
+
+
+
+
+<!-----------------------------------------------------------------
+						START OF WaterSystem PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="WaterSystem">
+	<header data-role="header">
+		<h1>Water System</h1>
+		<a href="#Main">Home</a>
+	</header>
+
+
+
+
+
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+<!-----------------------------------------------------------------
+						END OF WaterSystem PAGE
+------------------------------------------------------------------->
+
+
+
+
+<!-----------------------------------------------------------------
+						START OF AirCon PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="AirCon">
+	<header data-role="header">
+		<h1>Air Conditioning</h1>
+		<a href="#Main">Home</a>
+	</header>
+
+
+
+
+
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+<!-----------------------------------------------------------------
+						END OF AirCon PAGE
+------------------------------------------------------------------->
+
+
+
+
+<!-----------------------------------------------------------------
+						START OF RollOut PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="RollOut">
+	<header data-role="header">
+		<h1>Dometic Roll Out Awning</h1>
+		<a href="#Main">Home</a>
+	</header>
+	
+
+	<article>
+		<ul>
+			<li data-role="collapsible">
+				<h1>Rolling The Awning Out</h1>
+				<div>
+					<ul data-role="listview">
+						<li>
+							<h3>Step 1</h3>
+							<p>Unlock the travel clips</p>
+						</li>
+						<li>
+							<h3>Step 2</h3>
+							<p>Loosen the arm tension clamps</p>
+						</li>
+						<li>
+							<h3>Step 3</h3>
+							<p>Switch the awning drum to roll out. This switch is found at the end of the awning drum closes to the rear of the van</p>
+						</li>
+						<li>
+							<h3>Step 4</h3>
+							<p>Use the awning strap to roll the awning out until it has reached the desired position</p>
+						</li>
+						<li>
+							<h3>Step 5</h3>
+							<p>Slide the awning rafter arm from the bottom of the main awning arm to the top of the main awning arm. Locking in above the rafter arm lock in clip</p>
+						</li>
+						<li>
+							<h3>Step 6</h3>
+							<p>Using the main awning arm release lever, extend the main awning arm to the desired length</p>
+						</li>
+						<li>
+							<h3>Step 7</h3>
+							<p>Tighten the rafter arm tension clamp</p>
+						</li>
+					</ul>
+				</div>
+				
+			</li>
+			
+			<li data-role="collapsible">
+				<h1>Rolling The Awning In</h1>
+				
+				<div>
+					<ul data-role="listview">
+						<li>
+							<h3>Step 1</h3>
+							<p>Loosen the rafter arm tension clamp</p>
+						</li>
+						<li>
+							<h3>Step 2</h3>
+							<p>Using the main awning arm release lever, lower the main awning arm down to the seating pin</p>
+						</li>
+						<li>
+							<h3>Step 3</h3>
+							<p>Push on the awning rafter locking clip at the top of the main arm to release the awning rafter arm. Slide the rafter arm all the way to the base of the main arm</p>
+						</li>
+						<li>
+							<h3>Step 4</h3>
+							<p>Maintaining downward pressure on the awning drum, switch the awning drum to roll up. Slowly guide the awning up to the travel position. <b>The awning will have significant force and will want to roll up. It must be guided up slowly</b></p>
+						</li>
+						<li>
+							<h3>Step 5</h3>
+							<p>Tighten the rafter arm tension clamps</p>
+						</li>
+						<li>
+							<h3>Step 6</h3>
+							<p>Lock the inner and outer arms together with the travel clips</p>
+						</li>
+					</ul>
+				</div>
+				
+			</li>
+			
+		</ul>
+	</article>
+
+
+
+	
+	
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+<!-----------------------------------------------------------------
+						END OF RollOut PAGE
+------------------------------------------------------------------->
+
+
+
+
+<!-----------------------------------------------------------------
+						START OF Annex PAGE
+------------------------------------------------------------------->
+<div data-role="page" id="Annex">
+	<header data-role="header">
+		<h1>Annex Setup</h1>
+		<a href="#Main">Home</a>
+	</header>
+	
+	
+	
+<footer class="footer" data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+	<ul>
+		<li>
+			
+			<a class="phonelink" href="tel:0353348194" rel="external" data-role="button" data-icon="phone" data-theme="b">Call Us</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="#TravelList" data-icon="check">Pretravel <br> Checklist</a>
+		</li>
+		<li>
+			<a class="Footer_Button" href="mailto:ballarat@trouncecaravans.com.au" data-icon="mail">Email Us</a>
+		</li>				
+		<li>
+			<a class="Footer_Button" href="#" data-icon="info">Warranty Info</a>
+		</li>
+	</ul>
+	</nav>
+</footer>
+</div>
+<!-----------------------------------------------------------------
+						END OF Annex PAGE
+------------------------------------------------------------------->
+
+
+
+
+
+</body>
+</html>

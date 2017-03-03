@@ -1,0 +1,47 @@
+/* CSS Document */
+
+img.header
+	{
+		max-height: 50%; max-width: 50%; margin-left: 25%; margin-right: 25%;
+	}
+.instruction_list_parent
+	{
+		max-width: 100%; margin-left: -10%;
+	}
+.Footer_Button
+	{
+	height: 35px;
+}
+
+.phonelink
+	{
+	height: 35px;
+}
+
+
+.welcome_logo
+{
+	width:auto;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 50%;
+	
+}
+
+#start_app_container
+{
+	position: absolute;
+	width: 15%;
+	padding-left: 42.5%;
+}
+
+#start_app
+{
+	position: inherit;
+	width: 20%;
+}
+
+#TravelCheck_1,#TravelCheck_2,#TravelCheck_3,#TravelCheck_4,#TravelCheck_5,#TravelCheck_6,#TravelCheck_7,#TravelCheck_8,#TravelCheck_9,#TravelCheck_10,#TravelCheck_11,#TravelCheck_12,#TravelCheck_13,#TravelCheck_14,#TravelCheck_15,#TravelCheck_16,#TravelCheck_17,#TravelCheck_18,#TravelCheck_19
+{
+	font-size: small;
+}
